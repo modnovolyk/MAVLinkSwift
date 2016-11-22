@@ -1,0 +1,5 @@
+module Cmavlink [system] {
+	header "macros.h"
+    header "CSources/ardupilotmega/mavlink.h"
+    export *
+}
