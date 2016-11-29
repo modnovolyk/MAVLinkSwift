@@ -1,7 +1,4 @@
 language: objective-c
 osx_image: xcode8
-before_install:
-  - cd Utilities
-  - ./prepare_cmavlink.sh
 script:
-  - swift test
+  - ./Scripts/run_tests.sh
