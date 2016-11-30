@@ -9,7 +9,7 @@
 #if os(Linux)
     
 import XCTest
-@testable import LinuxMainGeneratorTests
+@testable import MAVLinkTests
  
 XCTMain([
         testCase(CompareWithCImplementationResultsTest.allTests),
