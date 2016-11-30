@@ -12,12 +12,12 @@ import XCTest
 @testable import MAVLinkTests
  
 XCTMain([
-        testCase(CompareWithCImplementationResultsTest.allTests),
+        testCase(CompareWithCImplementationResultsTests.allTests),
         testCase(DataExtensionsTests.allTests),
         testCase(MAVLinkTests.allTests)
     ])
     
-extension CompareWithCImplementationResultsTest {
+extension CompareWithCImplementationResultsTests {
     static let allTests = [
         ("testCImplementationDidParseMessageThatStartsRightAfterCorruptedCRCByte", testCImplementationDidParseMessageThatStartsRightAfterCorruptedCRCByte),
         ("testCImplementationDidParseMessageThatStartsRightAfterCorruptedMessageIdByte", testCImplementationDidParseMessageThatStartsRightAfterCorruptedMessageIdByte),
