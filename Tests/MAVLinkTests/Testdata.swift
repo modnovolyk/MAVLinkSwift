@@ -20,7 +20,7 @@ extension XCTestCase {
         }
         
         func relativePath() -> URL {
-            let packagePath = URL(fileURLWithPath: FileManager.default.currentDirectoryPath, isDirectory: true).deletingLastPathComponent().deletingLastPathComponent().deletingLastPathComponent()
+            let packagePath = URL(fileURLWithPath: FileManager.default.currentDirectoryPath, isDirectory: true)
             return packagePath.appendingPathComponent("Tests/MAVLinkTests/Testdata/flight.tlog")
         }
         
