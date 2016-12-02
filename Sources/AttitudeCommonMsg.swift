@@ -2,7 +2,7 @@
 //  AttitudeCommonMsg.swift
 //  MAVLink Micro Air Vehicle Communication Protocol
 //
-//  Generated from ardupilotmega.xml, common.xml, uAvionix.xml on Wed Nov 30 2016 by mavgen_swift.py 
+//  Generated from ardupilotmega.xml, common.xml, uAvionix.xml on Fri Dec 02 2016 by mavgen_swift.py 
 //  http://qgroundcontrol.org/mavlink/start
 //
 

@@ -18,12 +18,12 @@
  
 set -e
 
-function generate_library() {
-python "$PYMAVLINK_PATH/tools/mavgen.py" \
-    --output $3 \
-    --lang $1 \
-    --wire-protocol 1.0 \
-    $2
+generate_library() {
+    python "$PYMAVLINK_PATH/tools/mavgen.py" \
+	--output $3 \
+	--lang $1 \
+	--wire-protocol 1.0 \
+	$2
 }
 
 # Paths settings
