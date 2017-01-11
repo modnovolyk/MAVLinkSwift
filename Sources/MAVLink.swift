@@ -2,7 +2,7 @@
 //  MAVLink.swift
 //  MAVLink Micro Air Vehicle Communication Protocol
 //
-//  Generated from ardupilotmega.xml, common.xml, uAvionix.xml on Fri Dec 02 2016 by mavgen_swift.py 
+//  Generated from ardupilotmega.xml, common.xml, uAvionix.xml on Wed Jan 11 2017 by mavgen_swift.py 
 //  http://qgroundcontrol.org/mavlink/start
 //
 
@@ -450,6 +450,8 @@ public class MAVLink {
     /// length. Defined as `let` as we support only the latest version (1.0) of
     /// the MAVLink wire protocol.
     public let crcExtra = true
+    
+    public init() { }
     
     /// This is a convenience function which handles the complete MAVLink
     /// parsing. The function will parse one byte at a time and return the
