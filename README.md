@@ -27,7 +27,7 @@ Check Official Website for more details: [http://mavlink.org](http://mavlink.org
 
 ## Generating Platform-specific Source Files
 
- `Scripts` folder contains `update_swiftlib.sh` script which allows you to updates MAVLink Swift Library Messages and Enums from custom platform-specific XML definition file or ArduPilot's Git tag.
+ `Scripts` folder contains `update_swiftlib.sh` script which allows you to update MAVLink Swift Library Messages and Enums from custom platform-specific XML definition file or ArduPilot's Git tag.
 
 Usage:
 
