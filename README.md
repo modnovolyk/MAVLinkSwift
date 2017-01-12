@@ -2,7 +2,7 @@
 ====================================== 
 > MAVLink is a lightweight message marshalling library for micro air vehicles (drones).
 
-[![Build Status](https://travis-ci.org/modnovolyk/mavlink_swift_library_v1.svg?branch=master)](https://travis-ci.org/modnovolyk/mavlink_swift_library_v1) ![platforms](https://img.shields.io/badge/platforms-iOS%20%7C%20macOS%20%7C%20tvOS%20%7C%20watchOS%20%7C%20Linux-333333.svg) ![Swift Package Manager compatible](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg)
+[![Build Status](https://travis-ci.org/modnovolyk/MAVLinkSwift.svg?branch=master)](https://travis-ci.org/modnovolyk/MAVLinkSwift) ![platforms](https://img.shields.io/badge/platforms-iOS%20%7C%20macOS%20%7C%20tvOS%20%7C%20watchOS%20%7C%20Linux-333333.svg) [![Swift Package Manager compatible](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg)](https://swift.org/package-manager/)
 
 This library allows to pack and unpack specially generated Swift structs and enums (according to specific XML definition files) into/from MAVLink packets and send them to UAVs through multiple channels.
 
