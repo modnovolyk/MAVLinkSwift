@@ -1,9 +1,9 @@
 //
 //  MAVProtocolCapabilityCommonEnum.swift
-//  MAVLink Micro Air Vehicle Communication Protocol
+//  MAVLink Protocol Swift Library
 //
-//  Generated from ardupilotmega.xml, common.xml, uAvionix.xml on Wed Jan 11 2017 by mavgen_swift.py 
-//  http://qgroundcontrol.org/mavlink/start
+//  Generated from ardupilotmega.xml, common.xml, uAvionix.xml on Mon Jan 16 2017 by mavgen_swift.py 
+//  https://github.com/modnovolyk/MAVLinkSwift
 //
 
 /// Bitmask of (optional) autopilot capabilities (64 bit). If a bit is set, the autopilot supports this capability.

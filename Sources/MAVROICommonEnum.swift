@@ -1,9 +1,9 @@
 //
 //  MAVROICommonEnum.swift
-//  MAVLink Micro Air Vehicle Communication Protocol
+//  MAVLink Protocol Swift Library
 //
-//  Generated from ardupilotmega.xml, common.xml, uAvionix.xml on Wed Jan 11 2017 by mavgen_swift.py 
-//  http://qgroundcontrol.org/mavlink/start
+//  Generated from ardupilotmega.xml, common.xml, uAvionix.xml on Mon Jan 16 2017 by mavgen_swift.py 
+//  https://github.com/modnovolyk/MAVLinkSwift
 //
 
 /// The ROI (region of interest) for the vehicle. This can be be used by the vehicle for camera/vehicle attitude alignment (see MAV_CMD_NAV_ROI).

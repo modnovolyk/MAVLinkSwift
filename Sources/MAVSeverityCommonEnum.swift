@@ -1,9 +1,9 @@
 //
 //  MAVSeverityCommonEnum.swift
-//  MAVLink Micro Air Vehicle Communication Protocol
+//  MAVLink Protocol Swift Library
 //
-//  Generated from ardupilotmega.xml, common.xml, uAvionix.xml on Wed Jan 11 2017 by mavgen_swift.py 
-//  http://qgroundcontrol.org/mavlink/start
+//  Generated from ardupilotmega.xml, common.xml, uAvionix.xml on Mon Jan 16 2017 by mavgen_swift.py 
+//  https://github.com/modnovolyk/MAVLinkSwift
 //
 
 /// Indicates the severity level, generally used for status messages to indicate their relative urgency. Based on RFC-5424 using expanded definitions at: http://www.kiwisyslog.com/kb/info:-syslog-message-levels/.

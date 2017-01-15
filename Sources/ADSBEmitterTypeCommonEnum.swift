@@ -1,9 +1,9 @@
 //
 //  ADSBEmitterTypeCommonEnum.swift
-//  MAVLink Micro Air Vehicle Communication Protocol
+//  MAVLink Protocol Swift Library
 //
-//  Generated from ardupilotmega.xml, common.xml, uAvionix.xml on Wed Jan 11 2017 by mavgen_swift.py 
-//  http://qgroundcontrol.org/mavlink/start
+//  Generated from ardupilotmega.xml, common.xml, uAvionix.xml on Mon Jan 16 2017 by mavgen_swift.py 
+//  https://github.com/modnovolyk/MAVLinkSwift
 //
 
 /// ADSB classification for the type of vehicle emitting the transponder signal

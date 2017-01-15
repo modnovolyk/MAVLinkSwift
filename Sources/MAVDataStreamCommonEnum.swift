@@ -1,9 +1,9 @@
 //
 //  MAVDataStreamCommonEnum.swift
-//  MAVLink Micro Air Vehicle Communication Protocol
+//  MAVLink Protocol Swift Library
 //
-//  Generated from ardupilotmega.xml, common.xml, uAvionix.xml on Wed Jan 11 2017 by mavgen_swift.py 
-//  http://qgroundcontrol.org/mavlink/start
+//  Generated from ardupilotmega.xml, common.xml, uAvionix.xml on Mon Jan 16 2017 by mavgen_swift.py 
+//  https://github.com/modnovolyk/MAVLinkSwift
 //
 
 /// THIS INTERFACE IS DEPRECATED AS OF JULY 2015. Please use MESSAGE_INTERVAL instead. A data stream is not a fixed set of messages, but rather a recommendation to the autopilot software. Individual autopilots may or may not obey the recommended messages.
