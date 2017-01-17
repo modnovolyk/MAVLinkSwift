@@ -2,7 +2,7 @@
 //  Data16ArdupilotmegaMsg.swift
 //  MAVLink Protocol Swift Library
 //
-//  Generated from ardupilotmega.xml, common.xml, uAvionix.xml on Mon Jan 16 2017 by mavgen_swift.py 
+//  Generated from ardupilotmega.xml, common.xml, uAvionix.xml on Tue Jan 17 2017 by mavgen_swift.py 
 //  https://github.com/modnovolyk/MAVLinkSwift
 //
 
