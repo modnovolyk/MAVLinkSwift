@@ -4,11 +4,11 @@
 
 [![Build Status](https://travis-ci.org/modnovolyk/MAVLinkSwift.svg?branch=master)](https://travis-ci.org/modnovolyk/MAVLinkSwift) ![platforms](https://img.shields.io/badge/platforms-iOS%20%7C%20macOS%20%7C%20tvOS%20%7C%20watchOS%20%7C%20Linux-333333.svg) [![Swift Package Manager compatible](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg)](https://swift.org/package-manager/)
 
-This library allows to pack and unpack specially generated Swift structs and enums (according to specific XML definition files) into/from MAVLink packets and send them to UAVs through multiple channels.
+This library allows to decode and encode MAVLink Messages into/from specially auto-generated Swift structs and enums according to specific MAVLink XML definition file. It was built from the ground up in Swift utilizing type safety, generics, throwing and other language features to make library more reliable.
 
 MAVLink Communication Protocol is used on the PX4, PIXHAWK, APM and Parrot AR.Drone platforms and serves there as communication backbone for the MCU/IMU communication as well as for Linux interprocess and ground link communication.
 
-Check Official Website for more details: [http://mavlink.org](http://mavlink.org)
+Check Official Website for more details: [http://mavlink.org](http://mavlink.org).
 
 ## Features
 
@@ -27,7 +27,7 @@ Check Official Website for more details: [http://mavlink.org](http://mavlink.org
 
 ## Generating Platform-specific Source Files
 
- `Scripts` folder contains `update_swiftlib.sh` script which allows you to update MAVLink Swift Library Messages and Enums from custom platform-specific XML definition file or ArduPilot's Git tag.
+ `Scripts` folder contains `update_swiftlib.sh` script which allows you to update MAVLink Swift Library Messages and Enums from custom platform-specific XML definition file or ArduPilot's Git tag using the latest version of `mavgen_swift.py` script available at [modnovolyk/pymavlink/tree/swift3](https://github.com/modnovolyk/pymavlink/tree/swift3).
 
 Usage:
 
@@ -102,4 +102,5 @@ Fields:
 
 ## License
 
-Generated MAVLink v1.0 Protocol Library for Swift is distributed under the MIT license. See LICENSE for details. Pymavlink (generator) is released under the GNU Lesser General Public License v3 or later.
+Generated MAVLink v1.0 Protocol Library for Swift is distributed under the MIT license. See LICENSE for details.
+Pymavlink (generator) is released under the GNU Lesser General Public License v3 or later.
